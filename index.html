@@ -5,25 +5,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Review Carousel</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="main.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="main.css" />
         <script src="main.js" defer></script>
     </head>
     <body>
         <main>
             <section class="container">
-                <div class="title">
-                    <h2>Reviews</h2>
+                <div class="review__card">
+                    <div class="title">
+                        <h2>Reviews</h2>
+                    </div>
                     <div class="underline"></div>
                     <article class="review">
                         <div class="img-container">
-                            <img src="https://picsum.photos/200" alt="picsum" id="image"/>
+                            <img
+                                src="https://picsum.photos/200"
+                                alt="picsum"
+                                id="image"
+                            />
                         </div>
-                        <h1 id="author">Monica Becker</h1>
-                        <p id="job">Photographer</p>
-                        <p id="info">
-                            Et molestiae deleniti consequatur necessitatibus laudantium necessitatibus omnis consequatur. Sint necessitatibus sed ut reprehenderit. Aut natus vero dolores laborum sequi rem. Eius aut totam hic. Voluptas deleniti tempore vero velit minus cumque doloremque dolores modi.
+                        <h1 id="author" class="author">Monica Becker</h1>
+                        <p id="job" class="job">Photographer</p>
+                        <p id="info" class="info">
+                            Et molestiae deleniti consequatur necessitatibus
+                            laudantium necessitatibus omnis consequatur. Sint
+                            necessitatibus sed ut reprehenderit. Aut natus vero
+                            dolores laborum sequi rem. Eius aut totam hic.
+                            Voluptas deleniti tempore vero velit minus cumque
+                            doloremque dolores modi.
                         </p>
+                    </article>
                         <div class="button-container">
                             <button class="prev-btn">
                                 <i class="fas fa-chevron-left"></i>
@@ -32,8 +50,10 @@
                                 <i class="fas fa-chevron-right"></i>
                             </button>
                         </div>
-                        <button class="random-btn">surprise me</button>
-                    </article>
+                        <div class="random-btn-container">
+                            <button class="random-btn">surprise me</button>
+
+                        </div>
                 </div>
             </section>
         </main>

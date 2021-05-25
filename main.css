@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+main {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #F5F5F5;
+}
+.review__card {
+    background-color: #1F7087;
+    width: 25rem;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 5px;;
+}
+.title {
+    text-align: center;
+    padding-bottom: 1.2rem;
+    color: white;
+}
+.img-container img {
+    border-radius: 5px;
+    width: 100%;
+    height: 15rem;
+}
+
+.author{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.job{
+    padding: 0.5rem;
+    font-style: italic;
+    text-align: left;
+}
+.info{
+    padding: 0.3rem;
+    text-align: justify;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+    align-items: center;
+}
+
+.prev-btn, .next-btn {
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.5rem;
+    color: teal;
+    border-style: none;
+    border-radius: 2px;
+}
+.random-btn-container {
+    display: flex;
+    justify-content: center;
+}
+.random-btn {
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    color: teal;
+    font-size: 0.9rem;
+    border-style: none;
+    border-radius: 5px;
+}
